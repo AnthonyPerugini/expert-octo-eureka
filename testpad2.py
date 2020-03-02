@@ -52,6 +52,3 @@ def gfg_decorator():
 def hello_decorator():
     print("Gfg")
 
-
-
-
