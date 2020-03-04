@@ -27,8 +27,7 @@ l = []
 [l.append(item) for item in list1 if list1.count(item) > 1 and item not in l]
 
 
-li = ['f','g','h','t','e']
-li2 = ['f','g','h','t','e']
+li, li2 = ['f','g','h','t','e'], ['f','g','h','t','e']
 
 
 
@@ -41,6 +40,8 @@ for k, v in d.items():
     print(k, '--->', v)
 
 from collections import defaultdict as dd
+
+
 from functools import partial
 partial()
 
