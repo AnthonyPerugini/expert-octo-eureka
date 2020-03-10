@@ -30,8 +30,5 @@ def first_word(data: str) -> str:
             data = data.replace(char, " ")
     return data.split(" ")[0]
 
-first_word("Hello") == "Hello"
 
-
-
-
+assert first_word("Hello") == "Hello"
