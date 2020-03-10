@@ -12,3 +12,4 @@ pyperclip==1.7.0
 six==1.13.0
 watchdog==0.10.2
 wrapt==1.11.2
+pip
